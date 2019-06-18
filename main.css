@@ -1,0 +1,24 @@
+   
+    img {
+        /* 
+        animation-name: spin;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;*/
+        
+        animation: spin 1s infinite linear;
+    }
+
+    @keyframes spin { 
+        from {
+            transform: rotate(0);
+            }
+            
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    /* keyframes - using an animation 
+    called 'spin' at starting point rotate 0 degrees to 360 degrees, 
+    whole transform process takes 1s but goes on infinitley in a linear fashion */
